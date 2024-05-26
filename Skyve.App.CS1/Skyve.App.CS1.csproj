@@ -142,9 +142,9 @@
 	</Target>
 
 	<PropertyGroup>
-		<ChangelogToLocale>$([System.IO.Path]::GetFullPath('..\Skyve\ChangelogToLocale\ChangelogToLocale.exe'))</ChangelogToLocale>
-		<OriginalJsonFile>"$([System.IO.Path]::GetFullPath('..\Skyve-CS1\Skyve.App.CS1\Changelog.json'))"</OriginalJsonFile>
-		<LocaleJsonFile>"$([System.IO.Path]::GetFullPath('..\Skyve-CS1\Skyve.App.CS1\Properties\Changelog.json'))"</LocaleJsonFile>
+		<ChangelogToLocale>$([System.IO.Path]::GetFullPath('$(SolutionDir)\..\Skyve\ChangelogToLocale\ChangelogToLocale.exe'))</ChangelogToLocale>
+		<OriginalJsonFile>"$([System.IO.Path]::GetFullPath('$(SolutionDir)\..\Skyve-CS1\Skyve.App.CS1\Changelog.json'))"</OriginalJsonFile>
+		<LocaleJsonFile>"$([System.IO.Path]::GetFullPath('$(SolutionDir)\..\Skyve-CS1\Skyve.App.CS1\Properties\Changelog.json'))"</LocaleJsonFile>
 	</PropertyGroup>
 
 	<Target Name="BuildLocale" BeforeTargets="PreBuildEvent">
