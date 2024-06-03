@@ -63,7 +63,7 @@ public class SubscriptionInfoControl : SlickControl
 
 	protected override void UIChanged()
 	{
-		Padding = UI.Scale(new Padding(5), UI.FontScale);
+		Padding = UI.Scale(new Padding(5));
 	}
 
 	protected override void OnPaint(PaintEventArgs e)

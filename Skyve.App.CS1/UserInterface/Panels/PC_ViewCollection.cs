@@ -59,10 +59,10 @@ public class PC_ViewCollection : PC_GenericPackageList
 		base.UIChanged();
 
 		L_CollectionName.Font = UI.Font(12F, FontStyle.Bold);
-		L_CollectionName.Margin = UI.Scale(new Padding(3, 3, 0, 5), UI.FontScale);
-		PB_Icon.Size = UI.Scale(new Size(64, 64), UI.FontScale);
-		PB_Icon.Margin = UI.Scale(new Padding(5, 0, 0, 5), UI.FontScale);
-		B_Steam.Margin = UI.Scale(new Padding(0, 0, 5, 0), UI.FontScale);
+		L_CollectionName.Margin = UI.Scale(new Padding(3, 3, 0, 5));
+		PB_Icon.Size = UI.Scale(new Size(64, 64));
+		PB_Icon.Margin = UI.Scale(new Padding(5, 0, 0, 5));
+		B_Steam.Margin = UI.Scale(new Padding(0, 0, 5, 0));
 	}
 
 	protected override void LocaleChanged()

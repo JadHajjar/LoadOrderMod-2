@@ -99,8 +99,8 @@ public partial class PC_Options : PanelContent
 	{
 		base.UIChanged();
 
-		DD_Language.Width = (int)(220 * UI.FontScale);
-		TLP_Main.Padding = UI.Scale(new Padding(3, 0, 7, 0), UI.FontScale);
+		DD_Language.Width = UI.Scale(220);
+		TLP_Main.Padding = UI.Scale(new Padding(3, 0, 7, 0));
 		B_Theme.Margin = TLP_UI.Margin = TLP_Settings.Margin = TLP_Advanced.Margin = B_HelpTranslate.Margin = TLP_HelpLogs.Margin =
 			B_ClearFolders.Margin = B_Discord.Margin = B_Guide.Margin = B_Reset.Margin = B_ChangeLog.Margin = B_CreateShortcut.Margin =
 			TLP_Preferences.Margin = TLP_Folders.Margin = UI.Scale(new Padding(10), UI.UIScale);

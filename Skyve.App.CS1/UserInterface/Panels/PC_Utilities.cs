@@ -107,16 +107,16 @@ public partial class PC_Utilities : PanelContent
 	{
 		base.UIChanged();
 
-		B_ReDownload.Margin = UI.Scale(new Padding(5), UI.FontScale);
-		B_Troubleshoot.Margin = P_Cleanup.Margin = P_Collections.Margin = P_BOB.Margin = P_LsmReport.Margin = P_Troubleshoot.Margin = P_Reset.Margin = P_Text.Margin = P_ModIssues.Margin = UI.Scale(new Padding(10, 0, 10, 10), UI.FontScale);
-		B_ReDownload.Margin = TB_CollectionLink.Margin = B_LoadCollection.Margin = UI.Scale(new Padding(5), UI.FontScale);
-		B_ImportClipboard.Margin = UI.Scale(new Padding(10), UI.FontScale);
+		B_ReDownload.Margin = UI.Scale(new Padding(5));
+		B_Troubleshoot.Margin = P_Cleanup.Margin = P_Collections.Margin = P_BOB.Margin = P_LsmReport.Margin = P_Troubleshoot.Margin = P_Reset.Margin = P_Text.Margin = P_ModIssues.Margin = UI.Scale(new Padding(10, 0, 10, 10));
+		B_ReDownload.Margin = TB_CollectionLink.Margin = B_LoadCollection.Margin = UI.Scale(new Padding(5));
+		B_ImportClipboard.Margin = UI.Scale(new Padding(10));
 		L_Troubleshoot.Font = L_CleanupInfo.Font = L_OutOfDate.Font = L_Incomplete.Font = UI.Font(9F);
-		L_Troubleshoot.Margin = L_CleanupInfo.Margin = L_OutOfDate.Margin = L_Incomplete.Margin = UI.Scale(new Padding(3), UI.FontScale);
+		L_Troubleshoot.Margin = L_CleanupInfo.Margin = L_OutOfDate.Margin = L_Incomplete.Margin = UI.Scale(new Padding(3));
 
 		foreach (Control item in P_Reset.Controls)
 		{
-			item.Margin = UI.Scale(new Padding(5), UI.FontScale);
+			item.Margin = UI.Scale(new Padding(5));
 		}
 	}
 

@@ -195,7 +195,7 @@ internal class D_Playsets : IDashboardItem
 			if (applyDrawing && _playsetManager.CurrentPlayset == item)
 			{
 				using var pen = new Pen(FormDesign.Design.ActiveColor, (float)(2 * UI.FontScale));
-				e.Graphics.DrawRoundedRectangle(pen, args.Rectangle.Pad((int)(2 * UI.FontScale), 0, (int)(2 * UI.FontScale), 0), Padding.Left);
+				e.Graphics.DrawRoundedRectangle(pen, args.Rectangle.Pad(UI.Scale(2), 0, UI.Scale(2), 0), Padding.Left);
 			}
 		}
 

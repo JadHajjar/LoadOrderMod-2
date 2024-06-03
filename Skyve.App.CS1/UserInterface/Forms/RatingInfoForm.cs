@@ -93,7 +93,7 @@ public partial class RatingInfoForm : SlickForm
 	{
 		e.Graphics.SetUp(PB_11.BackColor);
 		var clip = e.Graphics.ClipBounds;
-		var labelH = PB_11.Height - (2 * (int)(2 * UI.FontScale));
+		var labelH = PB_11.Height - (2 * UI.Scale(2));
 		labelH -= labelH % 2;
 		var small = UI.FontScale < 1.25;
 		var scoreRect = PB_11.ClientRectangle.CenterR(labelH, labelH);

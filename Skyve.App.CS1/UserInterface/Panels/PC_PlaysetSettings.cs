@@ -101,7 +101,7 @@ public partial class PC_PlaysetSettings : PlaysetSettingsPanel
 	{
 		base.UIChanged();
 
-		slickIcon1.Size = slickIcon2.Size = B_EditName.Size = B_Save.Size = I_ProfileIcon.Size = I_Info.Size = I_TempProfile.Size = I_Favorite.Size = UI.Scale(new Size(24, 24), UI.FontScale) + new Size(8, 8);
+		slickIcon1.Size = slickIcon2.Size = B_EditName.Size = B_Save.Size = I_ProfileIcon.Size = I_Info.Size = I_TempProfile.Size = I_Favorite.Size = UI.Scale(new Size(24, 24)) + new Size(8, 8);
 		slickSpacer1.Height = (int)(1.5 * UI.FontScale);
 		P_Options.Padding = UI.Scale(new Padding(5, 0, 5, 0), UI.UIScale);
 		slickSpacer1.Margin = B_TempProfile.Padding = B_AddProfile.Padding = TLP_ProfileName.Padding = P_Options.Margin = UI.Scale(new Padding(5), UI.UIScale);
